@@ -6,7 +6,7 @@
     config: {
         //Your Shelly PM needs to have a fixed IP (or your LAN must be supporting mDNS)
         ShellyApiPath: "http://192.168.0.149/rpc/Shelly.GetStatus",
-        RefreshInterval: "5000", //milliseconds
+        RefreshIntervalLAN: "5000", //milliseconds
 		negativeDisplay: true,
 
 		cloudServerPath: "https://shelly-XX-eu.shelly.cloud/statistics/relay/consumption",
