@@ -27,7 +27,7 @@ Module.register("MMM-Shelly-PM",{
 		// Schedule update timer.
 		setIntervalImmediately(function() {
 			var payload = {
-				uri: self.config.uri
+				uri: self.config.ShellyApiPath
 			}
 			self.sendSocketNotification("GetShelly", payload);
 			self.updateDom();
